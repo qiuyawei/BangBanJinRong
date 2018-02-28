@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<paths>
+    <external-path path="帮办金融"  name="帮办金融缓存"/>
+    <external-path path="Android/data/com/pgyersdk" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+</paths>
+
+</resources>

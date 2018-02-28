@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:1-17:12
+INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:1-17:12
+INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:1-17:12
+INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:1-17:12
+INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:1-17:12
+INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:1-17:12
+INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:3:5-41
+		INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml
+		INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:5:5-30
+		INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml
+		INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:4:5-28
+		INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml
+		INJECTED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml
+uses-sdk
+ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from E:\studio_work_space\BangBanJinRong\jumpboxLibrary\AndroidManifest.xml:8:9-35

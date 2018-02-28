@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/shape_empty_rectangle"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/phone_number" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                style="@style/login_right_editextStyle"
+                android:hint="@string/phone_number_hint"
+                android:inputType="phone"
+                android:maxLength="11" />
+        </LinearLayout>
+
+        <View style="@style/login_viewStyle" />
+
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/login_pwd" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/et_regPwd"
+                    style="@style/login_right_editextStyle"
+                    android:hint="@string/login_pwd_hint"
+                    android:inputType="textPassword"
+                    android:layout_marginRight="@dimen/dp50"/>
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/cb_look"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="@dimen/dp10"
+                    android:button="@drawable/seek_checkbox"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <View style="@style/login_viewStyle" />
+
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/yan_zheng_ma" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/et_verCode"
+                    style="@style/login_right_editextStyle"
+                    android:hint="@string/yan_zheng_ma_hint"
+                    android:inputType="number"/>
+
+                <Button
+                    android:id="@+id/bt_getAuthCode"
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="@dimen/dp35"
+                    android:background="@drawable/shape_normal_button"
+                    android:text="获取验证码"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size14"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp10"
+                    android:src="@mipmap/login_image1"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:background="@drawable/shape_normal_button"
+            android:layout_margin="@dimen/dp10"
+            android:text="@string/sure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size14"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

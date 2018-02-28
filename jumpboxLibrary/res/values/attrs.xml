@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressLayout">
+        <attr name="progressBackground" format="color" />
+        <attr name="progress" format="boolean" />
+    </declare-styleable>
+
+    <!-- 圆形imageview -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width1" format="dimension" />
+        <attr name="border_color1" format="color" />
+    </declare-styleable>
+
+</resources>

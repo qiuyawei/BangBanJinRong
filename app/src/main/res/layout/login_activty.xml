@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/shape_empty_rectangle"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/phone_number" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                style="@style/login_right_editextStyle"
+                android:hint="@string/phone_number_hint"
+                android:inputType="phone"
+                android:maxLength="11" />
+        </LinearLayout>
+
+        <View style="@style/login_viewStyle" />
+
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/login_pwd" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/et_loginPwd"
+                    style="@style/login_right_editextStyle"
+                    android:hint="@string/login_pwd_hint"
+                    android:inputType="textPassword"
+                    android:layout_marginRight="@dimen/dp50"/>
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/cb_look"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="@dimen/dp10"
+                    android:button="@drawable/seek_checkbox"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    
+    
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@drawable/shape_normal_button"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp50"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size14"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10">
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size14"
+            android:background="@null"
+            android:textColor="@color/gray"
+            android:text="@string/register_new_user"/>
+        <Button
+            android:id="@+id/bt_forgotPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/size14"
+            android:background="@null"
+            android:textColor="@color/gray"
+            android:text="@string/forget_pwd"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/dp10"
+        >
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp1"
+            android:layout_weight="3"
+            android:background="@color/gray3"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/third_login"
+            android:layout_centerInParent="true"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp1"
+            android:layout_weight="3"
+            android:background="@color/gray3"
+            android:layout_centerVertical="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+          <TextView
+              android:id="@+id/tv_qq"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:drawableTop="@mipmap/login_imag2"
+              android:text="@string/qq_login"
+              />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tv_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/login_image3"
+                android:text="@string/wx_login"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/tv_sina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableTop="@mipmap/login_image4"
+                android:text="@string/sina_login"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

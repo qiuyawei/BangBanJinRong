@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">帮办金融</string>
+    <string name="tab_one_name">首页</string>
+    <string name="tab_two_name">订单</string>
+    <string name="tab_three_name">我的</string>
+    <string name="tab_four_name">产品</string>
+
+    <string name="ke_dai_money">可贷额度</string>
+    <string name="wan">万</string>
+    <string name="bao_dan">我要报单</string>
+    <string name="nick_name">昵称</string>
+    <string name="wo_de_qian_bao">我的钱包</string>
+    <string name="wo_de_ji_gou">我的机构</string>
+    <string name="wc">完成</string>
+    <string name="jgdm">机构代码</string>
+    <string name="jgdm_hint">请输入机构代码</string>
+    <string name="gsmc">公司名称</string>
+    <string name="gsdz">公司地址</string>
+
+    <!--login-->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="band_phone">绑定手机号</string>
+
+    <string name="sure">确认</string>
+    <string name="register_ruler">注册协议</string>
+
+    <string name="reg_checkbox_text">注册代表我同意</string>
+    <string name="user_xie_yi">《用户协议》</string>
+    <string name="shanghu_xiyi">《商户授权协议签约》</string>
+
+    <string name="reg_has_count">已有账户 去登录</string>
+
+    <string name="register_new_user">注册新用户</string>
+    <string name="forget_pwd">忘记密码?</string>
+    <string name="forget_pwd_one">忘记密码</string>
+
+    <string name="third_login">第三方登录</string>
+    <string name="qq_login">QQ登录</string>
+    <string name="wx_login">微信登录</string>
+    <string name="sina_login">新浪微博</string>
+    <string name="yan_zheng_ma">验证码</string>
+    <string name="yan_zheng_ma_hint">请输入验证码</string>
+    <string name="new_login_pwd">新密码</string>
+    <string name="new_login_pwd_hint">请输入新密码</string>
+
+    <string name="qyjg">签约机构</string>
+    <string name="clsqje">初领申请金额</string>
+
+    <string name="phone_number">手机号</string>
+    <string name="login_pwd">登录密码</string>
+    <string name="invite_cod">邀请码（选填）</string>
+    <string name="phone_number_hint">请输入手机号码</string>
+    <string name="sjh_hint">请输入预留手机号码</string>
+
+    <string name="login_pwd_hint">请输入登录密码</string>
+    <string name="invite_code_hint">请输入邀请码</string>
+    <string name="jie_kuan_ren">借款人姓名</string>
+    <string name="jie_kuan_ren_hint">请输入姓名</string>
+    <string name="jkrsfzh">借款人身份证号</string>
+    <string name="jkxx">借款信息</string>
+
+    <string name="id_card">身份证号</string>
+    <string name="id_card_hint">请输入身份证号</string>
+    <string name="di_ya_sort">抵押类型</string>
+    <string name="choice">请选择</string>
+
+    <string name="ban_li_sort">办理类型</string>
+    <string name="next">下一步</string>
+    <string name="di_ya_bao_dan">抵押报单</string>
+    <string name="guo_qiao_dian_zi">过桥垫资</string>
+
+    <string name="tian_xie_xin_dai">填写货款信息</string>
+    <string name="shang_chuan_fang_ben">上传房本照片</string>
+    <string name="tian_xie_fang_ben_xin_xi">填写房本信息</string>
+    <string name="yi_di_jin_e">一抵金额(万元)</string>
+    <string name="yi_di_jin_e_hint">请输入一抵金额</string>
+    <string name="zhao_pian_require">照片需要包括房屋面积、社区名、房产证号、抵押物坐落位置、房产类型、抵押物所有人/共有人</string>
+
+    <string name="yyxh_sugest">调查预约时间范围为包含当日在内的3个自然日，\n预约调查需收取300元下户费，取消预约不退还。</string>
+
+    <string name="shi_ming_renzheng_requir">验证成功后只能绑定实名认证人的银行卡</string>
+    <string name="bang_ding_yin_hangka_sugg">请绑定实名认证人的储蓄银行卡</string>
+    <string name="ti_xian_sugget">提现提交后，五个工作日内到账</string>
+
+    <string name="upload_fangchan_img">上传照片</string>
+    <string name="fang_chang_zheng_hao">房产证号</string>
+    <string name="fang_chang_zheng_hao_hint">请输入房产证号</string>
+    <string name="examble">例：沪(2017)松字不动产权第87568号或沪松字第85794号</string>
+    <string name="id_font">身份证正面</string>
+    <string name="id_back">身份证反面</string>
+
+    <string name="fang_chang_zheng_bianhao">房产证编号页</string>
+    <string name="fang_chang_zheng_zhuye">房产证主页</string>
+    <string name="fang_chang_zheng_fujiye">房产证附记页</string>
+    <string name="submit">提交</string>
+    <string name="order">订单</string>
+    <string name="ddxx">订单信息</string>
+    <string name="ddbh">订单编号</string>
+    <string name="tjddsj">提交订单时间</string>
+    <string name="ddzt">订单状态</string>
+    <string name="csxx">修改城市</string>
+    <string name="xgxm">修改姓名</string>
+
+    <string name="exam">示例</string>
+    <string name="fangda_suoxiao">可放大缩小图片查看房产证</string>
+    <array name="order_sort_array">
+        <item>全部</item>
+        <item>贷款中</item>
+        <item>还款中</item>
+        <item>已结清</item>
+        <item>已失效</item>
+    </array>
+    <string name="ddxq">订单详情</string>
+    <string name="xgmm">修改密码</string>
+    <string name="yyxh">预约下户</string>
+    <string name="zfxhfwf">支付下户服务费</string>
+    <string name="xx">消息</string>
+    <string name="xxxq">消息详情</string>
+
+    <string name="wdjl">我的经理</string>
+    <string name="ljff">累计返费</string>
+    <string name="gywm">关于我们</string>
+    <string name="yjfk">意见反馈</string>
+    <string name="bdyhk">绑定银行卡</string>
+    <string name="yzyhk">验证银行卡</string>
+    <string name="cxk">储蓄卡</string>
+
+    <string name="ckr">持卡人</string>
+    <string name="smrz">实名认证</string>
+    <string name="ti_xian">提现</string>
+    <string name="xdbd">信贷报单</string>
+
+    <string name="tx">头像</string>
+    <string name="xm">姓名</string>
+    <string name="xm_hint">请输入姓名</string>
+
+    <string name="szcs">所在城市</string>
+    <string name="sjh">手机号</string>
+    <string name="xgmim">修改密码</string>
+    <string name="wdtjm">我的推荐码</string>
+    <string name="wdewm">我的二维码</string>
+    <string name="grzl">个人资料</string>
+    <string name="tcdl">退出登录</string>
+    <string name="wdye">我的余额（元）</string>
+    <string name="ckszmx">查看收支明细</string>
+    <string name="tx1">提现</string>
+    <string name="txje">提现金额</string>
+    <string name="txje_hint">请输入提现金额</string>
+
+    <string name="yhk">银行卡</string>
+    <string name="yhkh">银行卡号</string>
+    <string name="yhkh_hint">请输入银行卡号</string>
+    <string name="image_index">%1$d/%2$d</string>
+
+    <string name="szmx">收支明细</string>
+    <string name="tjyhk">添加银行卡</string>
+    <declare-styleable name="PickerView">
+
+        <attr name="isLoop" format="boolean" />
+
+    </declare-styleable>
+
+
+    <string name="aboutUsContent">
+        "帮办金融"(http://www.shcaoqi.com)是一家专业的金融信息服务平台，在房产抵押、车辆抵押、过桥垫资、信用贷款均有建树，与银行、机构均保持良好的
+        战略合作，公司注册资本5000万，我们立足上海，服务全国。截至目前已服务了几百万名客户，通过自己的一套风控体系、信用审核、固定资产抵押的申请
+        方式，帮助有良好信誉及发展前景的中、小微企业和个体工商户从业者获得金融服务，为投资人获取稳定的收益。
+    </string>
+
+</resources>

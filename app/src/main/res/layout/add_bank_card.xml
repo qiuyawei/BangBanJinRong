@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/shape_empty_rectangle"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="银行卡号" />
+
+            <EditText
+                android:id="@+id/et_bankCardNumber"
+                style="@style/login_right_editextStyle"
+                android:layout_marginRight="@dimen/dp10"
+                android:gravity="right|center_vertical"
+                android:hint="请输入银行卡号"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <View style="@style/login_viewStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/xm" />
+
+            <EditText
+                android:id="@+id/et_Name"
+                style="@style/login_right_editextStyle"
+                android:layout_marginRight="@dimen/dp10"
+                android:gravity="right|center_vertical"
+                android:hint="@string/xm_hint"
+                android:maxLength="19" />
+        </LinearLayout>
+        <View style="@style/login_viewStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/id_card" />
+
+            <EditText
+                android:id="@+id/et_idNuber"
+                style="@style/login_right_editextStyle"
+                android:layout_marginRight="@dimen/dp10"
+                android:gravity="right|center_vertical"
+                android:hint="@string/id_card_hint"
+                android:inputType="text"/>
+        </LinearLayout>
+        <View style="@style/login_viewStyle" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/sjh" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                style="@style/login_right_editextStyle"
+                android:layout_marginRight="@dimen/dp10"
+                android:gravity="right|center_vertical"
+                android:hint="@string/sjh_hint"
+                android:inputType="number"
+                android:maxLength="11"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/gan_tan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:text="@string/bang_ding_yin_hangka_sugg"
+            android:textSize="@dimen/size10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dp10">
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableLeft="@drawable/register_checkbox"
+            android:checked="true"
+            android:text="同意"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="@dimen/dp2"
+            android:drawablePadding="@dimen/dp5"
+            />
+        <TextView
+            android:id="@+id/tv_rgRuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shanghu_xiyi"
+            android:textColor="@color/base_color"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/common_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp10"
+            android:text="@string/next" />
+    </RelativeLayout>
+</LinearLayout>

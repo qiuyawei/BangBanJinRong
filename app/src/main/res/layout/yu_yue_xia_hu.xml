@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/shape_empty_rectangle"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="订单号"/>
+            <TextView
+                android:id="@+id/tv_orderNumber"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/dp10"/>
+        </LinearLayout>
+        <View
+            style="@style/login_viewStyle"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="借款人"/>
+            <TextView
+                android:id="@+id/tv_borrowName"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/dp10"/>
+        </LinearLayout>
+        <View
+            style="@style/login_viewStyle"/>
+        <LinearLayout
+            android:id="@+id/ll_yuYueTime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="预约时间"/>
+            <TextView
+                android:id="@+id/tv_yuYueTime"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/dp10"
+                android:drawableRight="@mipmap/right_error"
+                android:hint="请选择预约时间"
+                android:drawablePadding="@dimen/dp10"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/gan_tan" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:text="@string/yyxh_sugest"
+            android:textSize="@dimen/size10"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_yyxh"
+            style="@style/common_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp10"
+            android:text="预约下户"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.ipd.bangbanjinrong.widget.VpSwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bangbanjinrong="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/topRl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:background="@color/base_color"
+            >
+
+            <TextView
+                android:id="@+id/tv_topBarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size16" />
+
+
+            <ImageView
+                android:id="@+id/iv_rightImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/dp10"
+                android:src="@mipmap/message" />
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:id="@+id/sll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <com.ipd.bangbanjinrong.widget.CustomLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    bangbanjinrong:rario="2.0"
+                    android:background="@color/base_color">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/vp_shuffling"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:interpolator="@android:anim/accelerate_interpolator" />
+
+                    <TextView
+                        android:id="@+id/tv_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_gravity="bottom"
+                        android:background="#99000000"
+                        android:gravity="center"
+                        android:text="123"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_point"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" />
+                </com.ipd.bangbanjinrong.widget.CustomLayout>
+
+                <com.ipd.bangbanjinrong.widget.MyListView
+                    android:id="@+id/myList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:divider="@color/gray3"
+                    android:dividerHeight="@dimen/dp10" />
+
+                <Button
+                    android:id="@+id/bt_baoDan"
+                    style="@style/common_button"
+                    android:layout_marginBottom="@dimen/dp10"
+                    android:layout_marginTop="@dimen/dp10"
+                    android:text="@string/bao_dan"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</com.ipd.bangbanjinrong.widget.VpSwipeRefreshLayout>
+

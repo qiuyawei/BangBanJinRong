@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray3">
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/top_layout" />
+    <Button
+        android:id="@+id/bt_submit"
+        style="@style/common_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp10"
+        android:text="@string/submit"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/bt_submit"
+        android:layout_marginBottom="@dimen/dp10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="*" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="借款人姓名" />
+
+                    <EditText
+                        android:id="@+id/et_name"
+                        style="@style/login_right_editextStyle"
+                        android:hint="请输入姓名"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+
+                <View style="@style/login_viewStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="*" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/id_card" />
+
+                    <EditText
+                        android:id="@+id/et_id"
+                        style="@style/login_right_editextStyle"
+                        android:hint="@string/id_card_hint"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10"
+                        android:inputType="text"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_gjj"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="*" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="公积金" />
+
+                    <TextView
+                        android:id="@+id/tv_gjj"
+                        style="@style/login_right_editextStyle"
+                        android:hint="选择有无"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+
+                <View style="@style/login_viewStyle" />
+
+                <LinearLayout
+                    android:id="@+id/ll_sb"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="*" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="社保" />
+
+                    <TextView
+                        android:id="@+id/tv_sb"
+                        style="@style/login_right_editextStyle"
+                        android:hint="选择有无"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+                <View style="@style/login_viewStyle" />
+
+                <LinearLayout
+                    android:id="@+id/ll_yyzz"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="营业执照" />
+
+                    <TextView
+                        android:id="@+id/tv_yyzz"
+                        style="@style/login_right_editextStyle"
+                        android:hint="选择有无"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="人寿保单年缴额(万元)" />
+
+
+                    <EditText
+                        android:id="@+id/et_rsbd"
+                        style="@style/login_right_editextStyle"
+                        android:hint="请输入金额"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="车市值(万元)" />
+
+
+                    <EditText
+                        android:id="@+id/et_csz"
+                        style="@style/login_right_editextStyle"
+                        android:hint="请输入金额"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+                <View style="@style/login_viewStyle" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="按揭房月供(万元)" />
+
+
+                    <EditText
+                        android:id="@+id/et_ajfyg"
+                        style="@style/login_right_editextStyle"
+                        android:hint="请输入金额"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+                <View style="@style/login_viewStyle" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="@dimen/dp10"
+                        android:text="清房市值(万元)" />
+
+
+                    <EditText
+                        android:id="@+id/et_qfsz"
+                        style="@style/login_right_editextStyle"
+                        android:hint="请输入金额"
+                        android:gravity="right|center_vertical"
+                        android:paddingRight="@dimen/dp10" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

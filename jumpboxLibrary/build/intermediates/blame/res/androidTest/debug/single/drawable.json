@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_green_solid.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_green_solid.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wheel_bg.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\my_self_single_selector.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\my_self_single_selector.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\selector_greentored.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_greentored.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shape_red_solid.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\shape_red_solid.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\wheel_val.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\aa_dialog_bg.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\aa_dialog_bg.xml"
+    }
+]

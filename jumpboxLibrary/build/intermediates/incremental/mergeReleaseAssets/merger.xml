@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\studio_work_space\BangBanJinRong\jumpboxLibrary\assets"><file name="province_data.xml" path="E:\studio_work_space\BangBanJinRong\jumpboxLibrary\assets\province_data.xml"/></source><source path="E:\studio_work_space\BangBanJinRong\jumpboxLibrary\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\studio_work_space\BangBanJinRong\jumpboxLibrary\build-types\release\assets"/></dataSet></merger>

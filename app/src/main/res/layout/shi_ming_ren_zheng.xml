@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_layout"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:orientation="vertical"
+        android:background="@drawable/shape_empty_rectangle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/xm" />
+            <EditText
+                style="@style/login_right_editextStyle"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dp10"
+                android:hint="@string/xm_hint"/>
+        </LinearLayout>
+        <View
+            style="@style/login_viewStyle"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/id_card" />
+            <EditText
+                style="@style/login_right_editextStyle"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dp10"
+                android:hint="@string/id_card_hint"
+                android:inputType="text"
+                android:maxLength="18"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dp10">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/gan_tan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:text="@string/shi_ming_renzheng_requir"
+            android:textSize="@dimen/size10"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/common_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp10"
+            android:text="@string/next"/>
+    </RelativeLayout>
+</LinearLayout>

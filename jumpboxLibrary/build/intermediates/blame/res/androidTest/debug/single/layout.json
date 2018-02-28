@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header2.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header2.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_load_footer.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_load_footer.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\city_choose_dialog2.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\city_choose_dialog2.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_datapick.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_datapick.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\activity_clipimage.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_clipimage.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\load_view.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\load_view.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\loading_dialog.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\loading_dialog.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_date.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_date.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\city_choose_dialog.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\city_choose_dialog.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\custom_select_view.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\custom_select_view.xml"
+    }
+]

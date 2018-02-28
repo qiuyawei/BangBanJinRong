@@ -1,0 +1,1172 @@
+[
+    {
+        "outputFile": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 36,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 36,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 36,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 36,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 38,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 38,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 227,
+                    "endColumn": 39,
+                    "endOffset": 262
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endColumn": 39,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 267,
+                    "endColumn": 42,
+                    "endOffset": 305
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 42,
+                        "endOffset": 305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 310,
+                    "endColumn": 43,
+                    "endOffset": 349
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 43,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 354,
+                    "endColumn": 38,
+                    "endOffset": 388
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 38,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 393,
+                    "endColumn": 39,
+                    "endOffset": 428
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 39,
+                        "endOffset": 428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 433,
+                    "endColumn": 39,
+                    "endOffset": 468
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 433,
+                        "endColumn": 39,
+                        "endOffset": 468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 473,
+                    "endColumn": 39,
+                    "endOffset": 508
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 39,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 513,
+                    "endColumn": 40,
+                    "endOffset": 549
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 513,
+                        "endColumn": 40,
+                        "endOffset": 549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 554,
+                    "endColumn": 40,
+                    "endOffset": 590
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 554,
+                        "endColumn": 40,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 595,
+                    "endColumn": 40,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 40,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 40,
+                    "endOffset": 672
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 40,
+                        "endOffset": 672
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 677,
+                    "endColumn": 58,
+                    "endOffset": 731
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 677,
+                        "endColumn": 58,
+                        "endOffset": 731
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 736,
+                    "endColumn": 51,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 736,
+                        "endColumn": 51,
+                        "endOffset": 783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 40,
+                    "endOffset": 824
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 788,
+                        "endColumn": 40,
+                        "endOffset": 824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 829,
+                    "endColumn": 34,
+                    "endOffset": 859
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 829,
+                        "endColumn": 34,
+                        "endOffset": 859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 864,
+                    "endColumn": 38,
+                    "endOffset": 898
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 864,
+                        "endColumn": 38,
+                        "endOffset": 898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 903,
+                    "endColumn": 38,
+                    "endOffset": 937
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endColumn": 38,
+                        "endOffset": 937
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 942,
+                    "endColumn": 47,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 942,
+                        "endColumn": 47,
+                        "endOffset": 985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endColumn": 42,
+                    "endOffset": 1028
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 990,
+                        "endColumn": 42,
+                        "endOffset": 1028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1033,
+                    "endColumn": 47,
+                    "endOffset": 1076
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1033,
+                        "endColumn": 47,
+                        "endOffset": 1076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1081,
+                    "endColumn": 44,
+                    "endOffset": 1121
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1081,
+                        "endColumn": 44,
+                        "endOffset": 1121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1126,
+                    "endColumn": 49,
+                    "endOffset": 1171
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1126,
+                        "endColumn": 49,
+                        "endOffset": 1171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1176,
+                    "endColumn": 43,
+                    "endOffset": 1215
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1176,
+                        "endColumn": 43,
+                        "endOffset": 1215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1220,
+                    "endColumn": 51,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1220,
+                        "endColumn": 51,
+                        "endOffset": 1267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 36,
+                    "endOffset": 1304
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1272,
+                        "endColumn": 36,
+                        "endOffset": 1304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1780,
+                    "endColumn": 57,
+                    "endOffset": 1833
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1780,
+                        "endColumn": 57,
+                        "endOffset": 1833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1838,
+                    "endColumn": 55,
+                    "endOffset": 1889
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1838,
+                        "endColumn": 55,
+                        "endOffset": 1889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1894,
+                    "endColumn": 45,
+                    "endOffset": 1935
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1894,
+                        "endColumn": 45,
+                        "endOffset": 1935
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1940,
+                    "endColumn": 68,
+                    "endOffset": 2004
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1940,
+                        "endColumn": 68,
+                        "endOffset": 2004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2009,
+                    "endColumn": 81,
+                    "endOffset": 2086
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2009,
+                        "endColumn": 81,
+                        "endOffset": 2086
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2091,
+                    "endColumn": 81,
+                    "endOffset": 2168
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2091,
+                        "endColumn": 81,
+                        "endOffset": 2168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2173,
+                    "endColumn": 72,
+                    "endOffset": 2241
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2173,
+                        "endColumn": 72,
+                        "endOffset": 2241
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2246,
+                    "endColumn": 52,
+                    "endOffset": 2294
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2246,
+                        "endColumn": 52,
+                        "endOffset": 2294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2299,
+                    "endColumn": 51,
+                    "endOffset": 2346
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2299,
+                        "endColumn": 51,
+                        "endOffset": 2346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2351,
+                    "endColumn": 52,
+                    "endOffset": 2399
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2351,
+                        "endColumn": 52,
+                        "endOffset": 2399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2404,
+                    "endColumn": 55,
+                    "endOffset": 2455
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2404,
+                        "endColumn": 55,
+                        "endOffset": 2455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2460,
+                    "endColumn": 63,
+                    "endOffset": 2519
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2460,
+                        "endColumn": 63,
+                        "endOffset": 2519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2524,
+                    "endColumn": 68,
+                    "endOffset": 2588
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2524,
+                        "endColumn": 68,
+                        "endOffset": 2588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2593,
+                    "endColumn": 109,
+                    "endOffset": 2698
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2593,
+                        "endColumn": 109,
+                        "endOffset": 2698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2703,
+                    "endColumn": 100,
+                    "endOffset": 2799
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2703,
+                        "endColumn": 100,
+                        "endOffset": 2799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2804,
+                    "endColumn": 70,
+                    "endOffset": 2870
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2804,
+                        "endColumn": 70,
+                        "endOffset": 2870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2875,
+                    "endColumn": 67,
+                    "endOffset": 2938
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2875,
+                        "endColumn": 67,
+                        "endOffset": 2938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2943,
+                    "endColumn": 105,
+                    "endOffset": 3044
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2943,
+                        "endColumn": 105,
+                        "endOffset": 3044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3049,
+                    "endColumn": 69,
+                    "endOffset": 3114
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3049,
+                        "endColumn": 69,
+                        "endOffset": 3114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3119,
+                    "endColumn": 91,
+                    "endOffset": 3206
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3119,
+                        "endColumn": 91,
+                        "endOffset": 3206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3211,
+                    "endColumn": 104,
+                    "endOffset": 3311
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3211,
+                        "endColumn": 104,
+                        "endOffset": 3311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3316,
+                    "endColumn": 71,
+                    "endOffset": 3383
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3316,
+                        "endColumn": 71,
+                        "endOffset": 3383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3388,
+                    "endColumn": 60,
+                    "endOffset": 3444
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3388,
+                        "endColumn": 60,
+                        "endOffset": 3444
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 3449,
+                    "endColumn": 64,
+                    "endOffset": 3509
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3449,
+                        "endColumn": 64,
+                        "endOffset": 3509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3514,
+                    "endColumn": 74,
+                    "endOffset": 3584
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3514,
+                        "endColumn": 74,
+                        "endOffset": 3584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 3589,
+                    "endColumn": 67,
+                    "endOffset": 3652
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3589,
+                        "endColumn": 67,
+                        "endOffset": 3652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 3657,
+                    "endColumn": 62,
+                    "endOffset": 3715
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 3657,
+                        "endColumn": 62,
+                        "endOffset": 3715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 3720,
+                    "endColumn": 55,
+                    "endOffset": 3771
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3720,
+                        "endColumn": 55,
+                        "endOffset": 3771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3776,
+                    "endColumn": 50,
+                    "endOffset": 3822
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3776,
+                        "endColumn": 50,
+                        "endOffset": 3822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3827,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 4064
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3827,
+                        "endLine": 66,
+                        "endColumn": 12,
+                        "endOffset": 4064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 4069,
+                    "endLine": 70,
+                    "endColumn": 12,
+                    "endOffset": 4313
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 4069,
+                        "endLine": 70,
+                        "endColumn": 12,
+                        "endOffset": 4313
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 4318,
+                    "endLine": 81,
+                    "endColumn": 12,
+                    "endOffset": 4963
+                },
+                "from": {
+                    "file": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 4318,
+                        "endLine": 81,
+                        "endColumn": 12,
+                        "endOffset": 4963
+                    }
+                }
+            }
+        ]
+    }
+]

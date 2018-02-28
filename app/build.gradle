@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.ipd.bangbanjinrong"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 6
+        versionName "1.06"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'x86', 'armeabi', 'armeabi-v7a', 'armeabi-v8a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "ee31547d772f94e67473d32a", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+
+    }
+    buildTypes {
+        release {
+//            是否混肴  不
+            minifyEnabled false
+//             移除无用的resource文件   不
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "6g"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    testCompile 'junit:junit:4.12'
+    compile 'org.xutils:xutils:3.5.0'
+    /*图片加载框架*/
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC0'
+    /*Json  解析*/
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile project(':jumpboxLibrary')
+    /*图片放大浏览*/
+    compile 'com.github.chrisbanes.photoview:library:+'
+
+    /*shareSdk*/
+    compile files('libs/MobCommons-2017.0823.1556.jar')
+    compile files('libs/MobTools-2017.0823.1556.jar')
+    compile files('libs/ShareSDK-Core-3.0.2.jar')
+    compile files('libs/ShareSDK-QQ-3.0.2.jar')
+    compile files('libs/ShareSDK-QZone-3.0.2.jar')
+    compile files('libs/ShareSDK-Wechat-3.0.2.jar')
+    compile files('libs/ShareSDK-Wechat-Core-3.0.2.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-3.0.2.jar')
+//    compile files('libs/ShareSDK-SinaWeibo-Core-3.0.2.jar')
+
+    /*推送极光*/
+    compile 'cn.jiguang.sdk:jpush:3.0.3'  // 此处以JPush 3.0.3 版本为例。
+    compile 'cn.jiguang.sdk:jcore:1.1.1'  // 此处以JCore 1.1.1 版本为例。
+    /*支付宝*/
+    compile files('libs/alipaySdk-20170725.jar')
+    /*微信支付*/
+    compile files('libs/libammsdk.jar')
+    /*蒲公英  bug反馈 和 提示个更新*/
+    compile 'com.pgyersdk:sdk:2.7.0'
+    /*扫描二维码*/
+    compile 'com.google.zxing:core:3.3.0'
+
+    /*仿照IOS状态栏和主色调一直*/
+    compile 'com.githang:status-bar-compat:0.3'
+
+
+}

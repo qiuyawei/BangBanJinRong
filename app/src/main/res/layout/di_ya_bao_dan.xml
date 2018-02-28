@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray3">
+
+    <include layout="@layout/top_layout" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dp10">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tian_xie_xin_dai"
+                android:layout_centerInParent="true"
+                android:background="@drawable/shape_normal_button"
+                android:padding="@dimen/dp5"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/shang_chuan_fang_ben"
+            android:gravity="center"
+            android:padding="@dimen/dp5"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tian_xie_fang_ben_xin_xi"
+            android:gravity="center"
+            android:padding="@dimen/dp5"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img3"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img6"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img4"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img5"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/img4"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/shape_empty_rectangle"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/jie_kuan_ren" />
+
+            <EditText
+                android:id="@+id/et_jkrxm"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:hint="@string/jie_kuan_ren_hint"
+                android:inputType="text"
+                android:maxLength="18"
+                android:paddingRight="@dimen/dp10" />
+        </LinearLayout>
+
+        <View style="@style/login_viewStyle" />
+
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/id_card" />
+
+            <EditText
+                android:id="@+id/et_sfzh"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:hint="@string/id_card_hint"
+                android:inputType="text"
+                android:paddingRight="@dimen/dp10" />
+        </LinearLayout>
+
+        <View style="@style/login_viewStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_dylex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:background="@drawable/shape_empty_rectangle"
+        android:orientation="vertical">
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/di_ya_sort" />
+
+            <TextView
+                android:id="@+id/tv_dylx"
+                style="@style/login_right_editextStyle"
+                android:hint="@string/choice"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/dp10"
+                android:textColor="@color/gray"
+                android:drawableRight="@mipmap/right_error"
+                android:drawablePadding="@dimen/dp10"/>
+        </LinearLayout>
+        <View
+            android:id="@+id/view"
+            style="@style/login_viewStyle"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/ll_yiDi"
+            style="@style/login_lineStytle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/yi_di_jin_e" />
+
+            <EditText
+                android:id="@+id/et_ydje"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:hint="@string/yi_di_jin_e_hint"
+                android:paddingRight="@dimen/dp10"
+                android:inputType="number"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_bllx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/shape_empty_rectangle"
+        android:orientation="vertical">
+        <LinearLayout style="@style/login_lineStytle">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/ban_li_sort" />
+
+            <TextView
+                android:id="@+id/tv_bllx"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:paddingRight="@dimen/dp10"
+                android:hint="@string/choice"
+                android:textColor="@color/gray"
+                android:drawableRight="@mipmap/right_error"
+                android:drawablePadding="@dimen/dp10"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_bllx"
+            style="@style/login_viewStyle"
+            android:visibility="gone"/>
+        <LinearLayout
+            android:id="@+id/ll_bllx2"
+            style="@style/login_lineStytle"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/login_left_textStyle"
+                android:text="@string/jgdm" />
+
+            <EditText
+                android:id="@+id/et_jgdm"
+                style="@style/login_right_editextStyle"
+                android:gravity="center_vertical|right"
+                android:hint="@string/jgdm_hint"
+                android:paddingRight="@dimen/dp10" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt_next"
+            style="@style/common_button"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp10"
+            android:text="@string/next"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

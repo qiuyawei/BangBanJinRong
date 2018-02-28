@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_layout"/>
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_empty_rectangle"
+        android:layout_margin="@dimen/dp10"
+        android:text="@string/aboutUsContent"
+        android:lineSpacingExtra="@dimen/dp1"
+        android:padding="@dimen/dp10"
+
+        android:drawableTop="@mipmap/logo"
+        android:drawablePadding="@dimen/dp10"
+        />-->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

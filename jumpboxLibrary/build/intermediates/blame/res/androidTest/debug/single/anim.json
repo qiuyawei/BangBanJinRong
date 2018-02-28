@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\update_loading_progressbar_anim.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\screen_enter_anim.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\screen_enter_anim.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pop_enter_anim.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\pop_enter_anim.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\screen_exit_anim.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\screen_exit_anim.xml"
+    },
+    {
+        "merged": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\pop_exit_anim.xml",
+        "source": "E:\\studio_work_space\\BangBanJinRong\\jumpboxLibrary\\build\\intermediates\\bundles\\debug\\res\\anim\\pop_exit_anim.xml"
+    }
+]

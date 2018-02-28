@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray3"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="@string/ddxx"
+                        android:textSize="@dimen/size16" />
+
+                </LinearLayout>
+
+                <View style="@style/login_viewStyle" />
+
+                <com.ipd.bangbanjinrong.widget.MyListView
+                    android:id="@+id/myList1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_cause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/dp10"
+                    android:paddingRight="@dimen/dp10"
+                    android:paddingBottom="@dimen/dp10"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp50"
+                        android:text="失败原因："
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"
+                        />
+                    <TextView
+                        android:id="@+id/tv_cause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="@string/jkxx"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_jkxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="初评结果"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_cpjg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="下户预约信息"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_xhyyxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="调查信息"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_dcxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="审批意见"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_spyj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <View style="@style/login_viewStyle" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp50"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dp10"
+                        android:text="附加条件"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/size16" />
+
+                    <TextView
+                        android:id="@+id/tv_extra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/dp10"
+                        android:paddingLeft="@dimen/dp10"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="合同信息"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_htxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="面签信息"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_mqxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="进抵预约信息"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_jdyyxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="放款信息"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_fkxx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <View style="@style/login_viewStyle" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:background="@drawable/shape_empty_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp50"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/login_left_textStyle"
+                        android:text="还款计划"
+                        android:textSize="@dimen/size16" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <CheckBox
+                            android:id="@+id/cb11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dp10"
+                            android:button="@drawable/expand_checkbox" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <!--
+                        <View style="@style/login_viewStyle" />
+                -->
+                <LinearLayout
+                    android:id="@+id/ll_hkjh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp1"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/ll_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp50"
+                        android:background="@color/gray3"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="@dimen/dp10"
+                            android:text="日期" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="本金/利息(万元)" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+                            android:paddingRight="@dimen/dp10"
+                            android:text="逾期金额(元)" />
+                    </LinearLayout>
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp50"
+                        android:background="@color/gray3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dp10"
+                        android:text="本金/利息账户" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp50"
+                        android:background="@color/gray3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/dp10"
+                        android:text="服务费账户" />
+
+                    <com.ipd.bangbanjinrong.widget.MyListView
+                        android:id="@+id/myList13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

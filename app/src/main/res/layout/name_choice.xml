@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_layout"/>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:background="@drawable/shape_empty_rectangle"
+        android:layout_margin="@dimen/dp10"
+        android:hint="请输入您的真实姓名"
+        android:textColorHint="@color/gray"
+        android:paddingLeft="@dimen/dp10"
+        android:textSize="@dimen/size14"/>
+
+
+    <Button
+        android:id="@+id/bt_sure"
+        style="@style/common_button"
+        android:text="@string/sure"
+        android:layout_marginTop="@dimen/dp50"/>
+</LinearLayout>
